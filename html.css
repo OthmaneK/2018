@@ -1,0 +1,133 @@
+html{
+	text-align: center;
+
+}
+h2{
+	font-family: 'Montserrat', sans-serif;
+}
+h1{	
+	font-size: 60px;
+	font-family: 'Raleway', sans-serif;
+	border-color: solid black;
+	color: white;
+
+}
+.poop{
+	padding: 300px;
+	color: white;
+	 
+}
+body{
+	background-image: url(http://www.todayifoundout.com/wp-content/uploads/2013/08/pacman.jpg)
+}
+.poopy{
+	border: 1px solid black;
+background-color: white;
+padding-top: 60px;
+
+}
+img{
+	height: 600px;
+    width: 30%;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    transition: all 0.6s ease-in-out;
+}
+img:hover{
+	filter: grayscale(100%);
+	transform: translateY(-5%);
+	    transform: scale(1.5); 
+}
+p{
+
+	color: black;
+	padding-bottom: 50px;
+	font-family: 'Montserrat', sans-serif;
+
+}
+p::after{
+
+}
+h3{
+	color: brown;
+	opacity: 5000;
+	font-size: 30px;
+	font-family: 'Homemade Apple', cursive;
+}
+h3:hover{
+	color: #0B173B;
+}
+ul {
+    margin: 50px;
+    list-style-type: none;
+    margin: 0;
+    padding-: 0;
+    overflow: hidden;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+}
+li{
+    float: left;
+}
+
+li a {
+    display: block;
+    color:#4000FF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+li a:hover{
+	color: #0B2F3A;
+	background-color: blue;
+}
+
+
+.container {
+    border: 2px solid #dedede;
+    background-color: #5F4C0B;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.darker {
+    border-color: black;
+    background-color: grey;
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+}
+
+.time-right {
+    float: right;
+    color: #5F4C0B;
+}
+
+.time-left {
+    float: left;
+    color: #5F4C0B;
+}
+h1{
+	margin: 5%;
+	padding: 5%;
+	font-family: 'Knewave', cursive;
+}
